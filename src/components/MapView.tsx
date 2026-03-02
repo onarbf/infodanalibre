@@ -10,7 +10,6 @@ import {
 import L from "leaflet";
 import type { ViewMode } from "../App";
 import {
-  formatCurrency,
   formatCurrencyShort,
   getInversionColor,
   CATEGORIES,

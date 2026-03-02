@@ -143,7 +143,7 @@ export default function ActuacionDetail({
                 className="video-link"
               >
                 🎬 Ver vídeo{" "}
-                {attrs.video.split(";").filter((u) => u.trim()).length > 1
+                {attrs.video!.split(";").filter((u) => u.trim()).length > 1
                   ? i + 1
                   : ""}
               </a>
